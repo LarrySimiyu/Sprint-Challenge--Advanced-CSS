@@ -44,6 +44,20 @@
       border-radius: 20px;
       height: 100%;
 
+      -webkit-filter: blur(7px);
+      filter: blur(7px);
+      -webkit-transition: .3s ease-in-out;
+      transition: .3s ease-in-out;
+
+      &:hover {
+        -webkit-filter: blur(0);
+        filter: blur(0);
+      }
+
+      
+
+      
+
       
     }
   }
@@ -136,6 +150,16 @@
         width: 100%;
         height: auto;
         border-radius: 10px;
+
+        -webkit-filter: blur(7px);
+        filter: blur(7px);
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+
+        &:hover {
+          -webkit-filter: blur(0);
+          filter: blur(0);
+        }
 
       }
     }
